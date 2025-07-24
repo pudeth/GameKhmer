@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  background-image: url("Number/Background.jpg");
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-image: url("Number/Background.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.sty{
+    background: rgba(255, 255, 255, 0.3);
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: 'Khmer OS Muol Light', Arial, sans-serif;
+  font-size: 50px;
+  -webkit-text-stroke: #ff8000 1px;
+    text-shadow: 2px 2px 0px rgb(158, 84, 0),
+                 4px 4px 0px rgb(126, 68, 0),
+                 5px 8px 4px rgb(0, 0, 0);
+}
+
+#output {
+  font-size: 24px;
+  margin: 20px;
+  color: red;
+  text-shadow: 2px 2px 5px black;
+}
+
+#diceImage {
+  width: 300px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* Animation style */
+@keyframes obb {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(50deg); }
+  50% { transform: rotate(-60deg); }
+  75% { transform: rotate(50deg); }
+  100% { transform: rotate(0deg); }
+
+}
+
+.obb {
+  animation: 
+  obb 0.5s ease;
+} 
+
