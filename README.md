@@ -31,8 +31,8 @@
     
     ">ប្រភេទហ្គេម</p>
     
-  <button onclick="location.href='Home1/gamekh.html'">ខ្លា ឃ្លោក</button>
-  <button onclick="location.href='Home2/index2.html'">ក្រឡុកលេខ</button>
+  <button onclick="location.href='gamekh.html'">ខ្លា ឃ្លោក</button>
+  <button onclick="location.href='index2.html'">ក្រឡុកលេខ</button>
 
 </body>
 </html>
